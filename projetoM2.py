@@ -1,9 +1,3 @@
-'''
-4 perguntas
-Para iniciar o questionário será solicitado ao usuário que informe a sua idade e
-gênero. Cada linha do nosso arquivo .csv deve conter: idade, gênero, resposta_1,
-resposta_2, resposta_3, resposta_4, data e hora da resposta
-'''
 from datetime import datetime
 import pandas as pd
 import csv
@@ -32,7 +26,7 @@ class Sistema():
             eleitor = Eleitor()
             eleitor.cadastrar_eleitor()
             if eleitor.idade == '00':
-                print('Agradecemos pela sua contribuição.')
+                print('Pesquisa encerrada, agradecemos sua atenção.')
                 loop = False
             else:
                 self.lista_eleitores.append(eleitor)
@@ -52,7 +46,6 @@ class Eleitor(): # Carol
     def cadastrar_eleitor(self):
         self.get_idade()
         if self.idade == '00':
-            ("Agradecemos pela sua contribuição. Os registros foram salvos num arquivo .csv.")
             return self
         self.get_genero()
         self.get_cidade()
@@ -72,13 +65,15 @@ class Eleitor(): # Carol
             elif int(idade) >= 16 and int(idade) < 100:
                 self.idade = idade
                 return
+            elif int(idade) >= 1 and int(idade) <=15:
+                print(f'Muito obrigado pelo seu interesse em responder nossa pesquisa! Porém, nosso objetivo é entender melhor como pensam os brasileiros(as) que podem ser eleitores(as) na presente data, isto é, todos aqueles(as) a partir de 16 anos de idade. Agradecemos sua compreensão.')
             else:
-                print(f'Por gentileza, digite sua idade corretamente!\n')
+                print(f'Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!')
 
     def get_genero(self):
         loop = True
         while loop:
-            genero = input("Qual o seu gênero?\n[1] - Feminino\n[2] - Masculino\n[3] - Prefiro não responder.\n")
+            genero = input("Qual o seu gênero?\n[1] - Feminino\n[2] - Masculino\n[3] - Transgênero \n[4] - Não-binário \n[5]- Prefiro não responder\n")
             if genero == '1':
                 self.genero = genero
                 loop = False
@@ -88,17 +83,44 @@ class Eleitor(): # Carol
             elif genero == '3':
                 self.genero = genero
                 loop = False
+            elif genero == '4':
+                self.genero = genero
+                loop = False
+            elif genero == '5':
+                self.genero = genero
+                loop = False
             else:
-                print("Por gentileza, digite seu gênero corretamente!\n")
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
 
     def get_cidade(self):
-        cidade = input("Qual a cidade onde você mora?\n")
-        self.cidade = cidade
-
+        loop = True
+        while loop:
+            cidade = input("Qual a cidade onde você mora?\n[1] - Belo Horizonte(MG) \n[2] - Contagem(MG) \n[3] - Recife(PE) \n[4] - São Paulo(SP) \n[5] - Três Barras(SC) \n[6] - Outra\n")
+            if cidade =='1':
+                self.cidade = cidade
+                loop = False
+            elif cidade =='2':
+                self.cidade = cidade
+                loop = False
+            elif cidade =='3':
+                self.cidade = cidade
+                loop = False
+            elif cidade =='4':
+                self.cidade = cidade
+                loop = False
+            elif cidade =='5':
+                self.cidade = cidade
+                loop = False
+            elif cidade =='6':
+                self.cidade = cidade
+                loop = False
+            else:
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
+                  
     def get_pergunta1(self):
         loop = True
         while loop:
-            pergunta1 = input("1. O voto é importante para você?\n[1] - Sim\n[2] - Não\n[3] - Não sei responder\n")
+            pergunta1 = input("1. O ato de votar é importante para você?\n[1] - Sim\n[2] - Não\n[3] - Não sei responder\n")
             if pergunta1 == '1':
                 self.pergunta1 = pergunta1
                 loop = False
@@ -109,7 +131,7 @@ class Eleitor(): # Carol
                 self.pergunta1 = pergunta1
                 loop = False
             else:
-                print("Por gentileza, digite as opções corretamente!\n")
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
 
     def get_pergunta2(self):
         loop = True
@@ -125,7 +147,7 @@ class Eleitor(): # Carol
                 self.pergunta2 = pergunta2
                 loop = False
             else:
-                print("Por gentileza, digite as opções corretamente!\n")
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
 
     def get_pergunta3(self):
         loop = True
@@ -141,7 +163,7 @@ class Eleitor(): # Carol
                 self.pergunta3 = pergunta3
                 loop = False
             else:
-                print("Por gentileza, digite as opções corretamente!\n")
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
 
     def get_pergunta4(self):
         loop = True
@@ -157,7 +179,7 @@ class Eleitor(): # Carol
                 self.pergunta4 = pergunta4
                 loop = False
             else:
-                print("Por gentileza, digite as opções corretamente!\n")
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
 
     def get_pergunta5(self):
         loop = True
@@ -165,15 +187,18 @@ class Eleitor(): # Carol
             pergunta5 = input("5. Você acredita que a urna eletrônica é confiável?\n[1] - Sim\n[2] - Não\n[3] - Não sei responder\n")
             if pergunta5 == '1':
                 self.pergunta5 = pergunta5
+                print('Respostas registradas.Muito obrigado por sua colaboração!')
                 loop = False
             elif pergunta5 == '2':
                 self.pergunta5 = pergunta5
+                print('Respostas registradas.Muito obrigado por sua colaboração!')
                 loop = False
             elif pergunta5 == '3':
                 self.pergunta5 = pergunta5
+                print('Respostas registradas. Muito obrigado por sua colaboração!')
                 loop = False
             else:
-                print("Por gentileza, digite as opções corretamente!\n")
+                print("Por gentileza, verifique sua resposta/ opções disponíveis e tente novamente!\n")
 
     def exportar_eleitor(self):
         return self.__dict__
