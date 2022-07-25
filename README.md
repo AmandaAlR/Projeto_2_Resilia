@@ -25,7 +25,7 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 
 
 
-## DESENVOLVEDOROS DO PROJETO 
+## DESENVOLVEDORES DO PROJETO 
 
 ###### Aline Gomes - Gestora de gente e engajamento 
 
