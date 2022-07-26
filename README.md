@@ -3,6 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/106848389/180666234-915735fb-ebe4-4d95-80d0-470a129a5fab.png)
 
+
 ## OBJETIVO 
 
 O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferramenta será a linguagem em Python para estar otimizando o processo de coleta de dados.
@@ -22,7 +23,6 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 ## BIBLIOTECA UTILIZADA 
 
 <img src="https://me315-unicamp.github.io/aulas/imgs_aula11/pandas.png" width="50" height="50" />
-
 
 
 ## DESENVOLVEDORES DO PROJETO 
