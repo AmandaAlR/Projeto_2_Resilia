@@ -181,7 +181,3 @@ class Registrar_dados():
     def criar_csv(self, lista_eleitores):
         df = pd.DataFrame.from_dict(lista_eleitores) 
         df.to_csv(r'pesquisa_eleitoral.csv', index = False, header=False, mode='a')
-
-
-
-sistema = Sistema()
