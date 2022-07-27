@@ -6,7 +6,7 @@
 
 ## OBJETIVO 
 
-Para o projeto final do Módulo 2 do curso Data Analytics - [Resilia Educação](https://www.resilia.com.br) atuamos como uma empresa fictícia denominada "CKA - Consultoria em Tecnologia e Informação" com o objetivo de desenvolver uma pesquisa digital em linguagem Python sobre a percepção dos brasileiros a respeito do processo eleitoral do nosso país (sem nenhum cunho político/partidário). Essa pesquisa de opinião pública visa ser aplicada em diversas cidades do Brasil, abordando pessoas em locais públicos. Os dados coletados são automaticamente armazenados em um arquivo .csv (continuamente atualizado) para análises futuras.
+Para o projeto final do Módulo 2 do curso Data Analytics - [Resilia Educação](https://www.resilia.com.br) -  atuamos como uma empresa fictícia denominada "CKA - Consultoria em Tecnologia e Informação" com o objetivo de desenvolver uma pesquisa digital em linguagem Python sobre a percepção dos brasileiros a respeito do processo eleitoral do nosso país (sem nenhum cunho político/partidário). Essa pesquisa de opinião pública visa ser aplicada em diversas cidades do Brasil, abordando pessoas em locais públicos. Os dados coletados são automaticamente armazenados em um arquivo .csv (continuamente atualizado) para análises futuras.
 
 
 ## FERRAMENTAS UTILIZADAS
@@ -30,17 +30,18 @@ Logo em seguida, o usuário deve informar o gênero que se identifica. Para isso
 Essa mesma estrutura de loop foi aplicada nas 5 perguntas da pesquisa, de forma que é aceito apenas os inputs '1', '2' ou '3' como válidos. Ao término da última pergunta, o usuário recebe uma mensagem de agradecimento e um novo loop é acionado iniciando a pesquisa novamente para o próximo usuário.  Todas as respostas obtidas são armazendas em um dicionário que será salvo quando o código for finalizado ao ser digitado '00' no campo idade. É somente nesse momento que será criado (ou atualizado) o arquivo csv.
 
 No código será encontrado:
+
+* classes, atributos e métodos (ex: construtor);
 * listas e dicionário;
 * estrutura de repetição: while e for;
 * estrutura de condição: if, elif, else;
-* métodos (ex: método construtor);
 * biblioteca [pandas](https://pandas.pydata.org/) - para manipulação do arquivo csv;
-* função [datetime.now](https://docs.python.org/pt-br/3/library/datetime.html)
-* função [time.sleep]( https://docs.python.org/3/library/time.html) 
-* função [path.exists] (https://docs.python.org/3/library/os.path.html).
+* função [datetime.now](https://docs.python.org/pt-br/3/library/datetime.html);
+* função [time.sleep]( https://docs.python.org/3/library/time.html);
+* função [path.exists](https://docs.python.org/3/library/os.path.html).
 
 
-Para visualizar os dados da pesquisa, foi criado um dashboard com  Power BI em que é possível filtrar as respostas de acordo com o gênero dos entrevistados:
+Para visualizar os dados da pesquisa foi criado um dashboard com Power BI em que é possível filtrar as respostas de acordo com o gênero dos entrevistados:
 
 ![image](https://cdn.discordapp.com/attachments/998027176605646848/1001698133849415782/Screenshot_3.png)
 
