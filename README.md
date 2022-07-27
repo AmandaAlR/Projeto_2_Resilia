@@ -6,7 +6,7 @@
 
 ## OBJETIVO 
 
-O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferramenta será a linguagem em Python para estar otimizando o processo de coleta de dados.
+Atuamos como uma empresa fictícia "CKA - Consultoria em Tecnologia e Informação" cujo objetivo era desenvolver uma pesquisa digital em linguagem Python sobre a percepção dos brasileiros a respeito do processo eleitoral do nosso país (sem nenhum cunho político/partidário). Essa pesquisa de opinião pública visa ser aplicada em diversas cidades do Brasil, abordando pessoas presencialmente em locais públicos. Os dados coletados são automaticamente armazenados em um arquivo .csv (continuamente atualizado) para análises futuras.
 
 
 ## FUNCIONAMENTO
@@ -36,12 +36,11 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 
 ###### Aline Gomes - Gestora de gente e engajamento 
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aeogomes/)](http: https://www.linkedin.com/in/aeogomes/)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aeogomes/)]            (http:https://www.linkedin.com/in/aeogomes/)
 
 ###### Amanda Alves - Gestora de Conhecimento 
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/amandaalvesres/)](https://www.linkedin.com/in/amandaalvesres/)
-
 
 ###### Carol Candeias - Colaborador 
 
