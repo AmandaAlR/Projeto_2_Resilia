@@ -16,6 +16,11 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 *  Ao final da pesquisa será gerado um arquivo csv para arquivar os dados da pesquisa.
 
 
+![image](https://cdn.discordapp.com/attachments/998027176605646848/1001698133417406524/Screenshot_2.png)
+
+![image](https://cdn.discordapp.com/attachments/998027176605646848/1001698133849415782/Screenshot_3.png)
+
+
 ## FERRAMENTAS UTILIZADAS
 
 <img src="https://user-images.githubusercontent.com/40433498/174687677-f42a2f52-1b0f-4f8d-ba9d-316e6d019c5f.png" width="50" height="50" /> <img src="https://user-images.githubusercontent.com/40433498/174687676-5d40a2fe-4b62-4fa1-a1fe-20737a1878f8.png" width="50" height="50" /> <img src="https://user-images.githubusercontent.com/40433498/174687678-7ea56222-a00e-4886-a63d-d4214221f8ca.jpg" width="50" height="50" />
@@ -26,6 +31,8 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 
 
 ## DESENVOLVEDORES DO PROJETO 
+
+![image](https://media.discordapp.net/attachments/998027176605646848/1001698496065314836/Screenshot_4.png?width=1194&height=671)
 
 ###### Aline Gomes - Gestora de gente e engajamento 
 
@@ -47,6 +54,8 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 ###### Karolina Juliana - Co-Facilitador 
 
 [![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https:https://www.linkedin.com/in/kjcsilva/)](http:https://www.linkedin.com/in/kjcsilva/)
+
+
 
 
 
