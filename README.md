@@ -6,7 +6,7 @@
 
 ## OBJETIVO 
 
-Para o projeto final do Módulo 2 da formação em Data Analytics da [Resilia Educação](https://www.resilia.com.br), atuamos como uma empresa fictícia denominada "CKA - Consultoria em Tecnologia e Informação" com o objetivo de desenvolver uma pesquisa digital em linguagem Python sobre a percepção dos brasileiros a respeito do processo eleitoral do nosso país (sem nenhum cunho político/partidário). Essa pesquisa de opinião pública visa ser aplicada em diversas cidades do Brasil, abordando pessoas em locais públicos. Os dados coletados são automaticamente armazenados em um arquivo .csv (continuamente atualizado) para análises futuras.
+Para o projeto final do Módulo 2 da formação em Data Analytics da [Resilia Educação](https://www.resilia.com.br), atuamos como uma empresa fictícia denominada "CKA - Consultoria em Tecnologia e Informação" com o objetivo de desenvolver uma pesquisa digital em linguagem Python sobre a percepção dos brasileiros a respeito do processo eleitoral do nosso país (sem nenhum cunho político/partidário). Essa pesquisa de opinião visa ser aplicada em diversas cidades do Brasil, abordando pessoas em locais públicos. Os dados coletados são automaticamente armazenados em um arquivo .csv (continuamente atualizado) para análises futuras.
 
 
 ## FERRAMENTAS UTILIZADAS
