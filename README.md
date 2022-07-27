@@ -36,7 +36,7 @@ O Objetivo do projeto e desenvolver uma pesquisa eleitoral,onde a principal ferr
 
 ###### Aline Gomes - Gestora de gente e engajamento 
 
-[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aeogomes/)](httpshttps://www.linkedin.com/in/aeogomes/)
+[![Linkedin Badge](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/aeogomes/)](http: https://www.linkedin.com/in/aeogomes/)
 
 ###### Amanda Alves - Gestora de Conhecimento 
 
