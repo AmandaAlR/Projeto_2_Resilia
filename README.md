@@ -48,8 +48,25 @@ Para visualizar os dados da pesquisa foi criado um dashboard com Power BI em que
 
 ## COMO EXECUTAR O PROJETO?
 
-Descrever o passo a passo para clonar o arquivo, fazer o ambiente virtual, etc
+O primeiro passo o usuário deverá fazer o clone do repositório do projeto. 
+* No Git Hub navegue até a página inicial do repositório
+* Copia o URL disponível 
+* Abra o Git Bash
+* Seleciona o local onde deseja ter o repositório clonado
+* Digite (git clone)
+* Pressiona enter para criar o seu clone local 
 
+O próximo passo será preciso criar um ambiente virtual 
+* Utilizando o comando python -m venv (nome_do_seu_ambiente_virtual)
+* O segundo passo será utilizar o comando para ativar o ambiente virtual 
+.\nome_da_pastal\Scripts\activate
+com isso o seu ambiente virtual já vai está ativo 
+
+O passo seguinte será instalar no ambiente virtual os pacotes que foi utilizado no desenvolvimento
+* Executando o comando pip install -r requirements.txt o gerenciador de pacotes cuidará de baixar a versão do Pandas utilizada.
+
+Caso deseja desativar o seu ambiente virtual utilize o comando abaixo 
+* deactivate
 
 
 ## DESENVOLVEDORES
